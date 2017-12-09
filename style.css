@@ -1,6 +1,0 @@
-
-:host-context(.platform-windows) .monospace, 
-:host-context(.platform-windows) .source-code, 
-.platform-windows .monospace, .platform-windows .source-code{
-    font-family: fira code light !important;
-}
