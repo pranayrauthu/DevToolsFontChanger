@@ -1,6 +1,6 @@
 {
 	"name": "DevTools Font Changer",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Font changer for chrome devtools.",
 	"devtools_page": "devtools.html",
 	"options_page": "options.html",
