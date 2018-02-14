@@ -1,0 +1,29 @@
+main{
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+main div#options-form{
+    font-size: 15px;
+}
+
+main div#options-form button{
+    background-color: green;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+main div#saved-fonts span{
+    display: -webkit-inline-box;
+    margin: 5px;
+}
+
+main div#saved-fonts span p{
+    margin: 0px;
+}
+
+main div#options-form div#note {
+    font-size: 13px;
+}

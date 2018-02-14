@@ -1,0 +1,14 @@
+{
+	"name": "DevTools Font Changer",
+	"version": "1.0.1",
+	"description": "Font changer for chrome devtools.",
+	"devtools_page": "devtools.html",
+	"options_page": "options.html",
+	"manifest_version": 2,
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl8hU4jvoRVimC3BmEyj+QOWnQaBciRxlWAV5mWUX0ukX2eICTEc8UxBhexDU3ES0jjWQ1Z8qItMzJpKKWGQCUSbsM4FIjqKCT4dKkKxn4KDdrFb0it3mzsbcmdPCVsKROeb7sAFlXJ6Ew0L58zNQHn8MYEWDomQSnrBrhK2g+VMZLBMJuAbDU57v7xK2F2+6XG52bWx3v+i5VjDkVkqcbDywB/cjqmRCoTRW8Nqpsdv/iGq2D3gv/Xj6KT3MHgK9HCd3ixeMK51Y4HgbQ3rE2aoIv1S4Hg9yIRKtymqq/QW4wwyKN6eYNqOQLOtDSUk47QDa41i8Bto033lMdSyp6wIDAQAB",
+
+	"permissions": [
+		"storage"
+	]
+
+}

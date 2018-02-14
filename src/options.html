@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTools Font Changer - Options</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <main>
+        <h1>DevTools FontChanger</h1>
+        <hr>
+        <div id="options-form">
+            
+            <div>
+                <label for="font-family">font-family:</label>
+                <input type="text" name="font-family" id="font-family">
+            </div>
+
+            <div id="note">
+                Note: If font-family is not installed on system. Add the url to font ex: <u>https://fonts.googleapis.com/css?family=Roboto</u> (<a href="https://fonts.google.com" target="_blank">refer</a> for google fonts)
+            </div>
+            
+            <div>
+                <input id="ext-font-inpt" type="url" placeholder="external font url">
+                <button id="add-ext-font">Add</button>
+                <hr>
+                <div id="saved-fonts"></div>
+            </div>
+
+            <div id="status"></div>
+            <button id="save">Save</button>
+        </div>
+    </main>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

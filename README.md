@@ -1,4 +1,4 @@
-# DevToolsTweak
+# DevTools FontChanger
 
 
 customize devtools font.

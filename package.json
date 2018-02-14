@@ -1,0 +1,23 @@
+{
+  "name": "devtoolsfontchanger",
+  "version": "1.0.0",
+  "description": "customize devtools font.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "eslint src\\options.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranayrauthu/DevToolsFontChanger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranayrauthu/DevToolsFontChanger/issues"
+  },
+  "homepage": "https://github.com/pranayrauthu/DevToolsFontChanger#readme"
+}
