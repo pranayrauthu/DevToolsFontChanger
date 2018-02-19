@@ -43,7 +43,8 @@
     }
 
     function addExtFont() {
-        const fontUrl = document.getElementById('ext-font-inpt').value;
+        const fontUrlInputTag = document.getElementById('ext-font-inpt');
+        const fontUrl = fontUrlInputTag.value;
         const urlRegex = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)[a-z0-9]+([-.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/g;
         if (!urlRegex.test(fontUrl)) {
             window.alert('please enter valid url');
@@ -53,6 +54,8 @@
         fontsDisplayContainer.appendChild(
             createFontUrlOption(fontUrl, fontsDisplayContainer)
         );
+        // reset form
+        fontUrlInputTag.value = null;
     }
 
     function restoreOptions() {
