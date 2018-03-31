@@ -1,6 +1,6 @@
 {
   "name": "devtoolsfontchanger",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "customize devtools font.",
   "main": "index.js",
   "dependencies": {

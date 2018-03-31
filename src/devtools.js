@@ -27,4 +27,9 @@
         chrome.devtools.panels.applyStyleSheet(styleTemplate(items.fontFamily));
     });
 
+    chrome.devtools.panels.create('Devtools Font Changer',
+        'devtool.png',
+        'panel.html'
+    );
+
 })();
