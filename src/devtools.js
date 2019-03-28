@@ -7,7 +7,10 @@
         .platform-windows .monospace, .platform-windows .source-code,
         :host-context(.platform-mac) .monospace,
         :host-context(.platform-mac) .source-code,
-        .platform-mac .monospace, .platform-mac .source-code {
+        .platform-mac .monospace, .platform-mac .source-code,
+        :host-context(.platform-linux) .monospace, 
+        :host-context(.platform-linux) .source-code, 
+        .platform-linux .monospace, .platform-linux .source-code {
             font-family: ${fontFamily} !important;
         }
 
