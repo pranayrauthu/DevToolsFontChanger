@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="6" fill="#4285F4"/>
+  <text x="10" y="36" font-family="Arial" font-size="36" font-weight="bold" fill="white">F</text>
+  <path d="M36 12L30 36" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

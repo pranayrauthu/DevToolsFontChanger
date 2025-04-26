@@ -1,13 +1,19 @@
 {
 	"name": "DevTools Font Changer",
-	"version": "1.0.3",
+	"version": "1.0.5",
 	"description": "Font changer for chrome devtools.",
 	"devtools_page": "devtools.html",
-	"options_page": "options.html",
-	"manifest_version": 2,
-
+	"options_ui": {
+		"page": "options.html",
+		"open_in_tab": true
+	},
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"manifest_version": 3,
 	"permissions": [
 		"storage"
 	]
-
 }
